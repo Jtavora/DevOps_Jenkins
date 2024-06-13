@@ -16,7 +16,7 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin
     ports:
-      - "8081:80" # Mudança de porta para evitar conflitos
+      - "8083:8083"
     environment:
       PMA_HOST: mariadb
       PMA_USER: root
